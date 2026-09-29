@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "image": "assets/hero.png",
+    "headline": "Built to stop the scroll.",
+    "headline_ar": "مصمَّم ليوقف السكرول.",
+    "intro": "Media Store is a digital marketing and creative solutions agency. Since 2017 we've helped businesses build distinctive brands, strengthen their digital presence, and connect with the people they want to reach.",
+    "intro_ar": "ميديا ستور وكالة تسويق رقمي وحلول إبداعية. منذ 2017 نساعد الشركات على بناء علامات تجارية مميزة، وتعزيز حضورها الرقمي، والوصول إلى الجمهور الذي تريده."
+  },
+  "stats": [
+    { "value": "2017", "label": "Established", "label_ar": "سنة التأسيس" },
+    { "value": "700+", "label": "Clients served", "label_ar": "عميل" },
+    { "value": "4", "label": "Markets: Egypt, KSA, UAE, Indonesia", "label_ar": "أسواق: مصر، السعودية، الإمارات، إندونيسيا" }
+  ],
+  "about": {
+    "title": "Every business has a story worth telling.",
+    "title_ar": "لكل بيزنس قصة تستحق أن تُروى.",
+    "body": "Our role is to transform that story into brand experiences that capture attention, inspire engagement, and support growth. We bring together strategic thinking, creativity, and technology to deliver integrated marketing solutions for modern businesses.",
+    "body_ar": "دورنا أن نحوّل هذه القصة إلى تجارب براند تلفت الانتباه، وتصنع التفاعل، وتدعم النمو. نجمع بين التفكير الاستراتيجي والإبداع والتكنولوجيا لنقدّم حلول تسويق متكاملة للشركات الحديثة.",
+    "points": [
+      { "text": "Strengthen digital presence", "text_ar": "تعزيز الحضور الرقمي" },
+      { "text": "Build distinctive brand identities", "text_ar": "بناء هويات بصرية مميزة" },
+      { "text": "Connect brands with target audiences", "text_ar": "ربط البراندات بجمهورها" },
+      { "text": "Support measurable business growth", "text_ar": "دعم نمو قابل للقياس" }
+    ]
+  },
+  "services": [
+    { "title": "Social Media Management", "title_ar": "إدارة السوشيال ميديا", "body": "Strategic planning, creative content, and consistent communication. From content planning and creative direction to daily account management and performance evaluation.", "body_ar": "تخطيط استراتيجي ومحتوى إبداعي وتواصل مستمر، من خطة المحتوى والتوجيه الإبداعي إلى الإدارة اليومية للحسابات وتقييم الأداء.", "tags": "Strategy · Content Planning · Content Creation · Account Management · Engagement · Analysis", "tags_ar": "استراتيجية · خطة محتوى · صناعة محتوى · إدارة حسابات · تفاعل · تحليل" },
+    { "title": "Media Production", "title_ar": "الإنتاج الإعلامي", "body": "Photography, videography, and visual storytelling that captures attention and communicates a brand's identity across digital platforms.", "body_ar": "تصوير فوتوغرافي وفيديو وسرد بصري يلفت الانتباه ويعبّر عن هوية البراند على كل المنصات الرقمية.", "tags": "Commercial Photography · Videography · Promo Videos · Reels · Content Production", "tags_ar": "تصوير تجاري · فيديو · فيديوهات ترويجية · ريلز · إنتاج محتوى" },
+    { "title": "Paid Advertising", "title_ar": "الإعلانات الممولة", "body": "Targeted campaigns that connect businesses with the right audiences, combining audience insight, creative, planning, and performance analysis.", "body_ar": "حملات موجّهة توصل الشركات إلى الجمهور المناسب، تجمع بين فهم الجمهور والإبداع والتخطيط وتحليل الأداء.", "tags": "Ad Strategy · Targeting · Campaign Planning · Ad Creative · Management · Optimization", "tags_ar": "استراتيجية إعلانية · استهداف · تخطيط حملات · تصميم إعلانات · إدارة · تحسين" },
+    { "title": "AI Solutions", "title_ar": "حلول الذكاء الاصطناعي", "body": "Practical AI applications built around each business: smarter workflows, better digital communication, and new customer experiences.", "body_ar": "تطبيقات عملية للذكاء الاصطناعي مصممة حسب كل بيزنس: سير عمل أذكى، وتواصل رقمي أفضل، وتجارب جديدة للعملاء.", "tags": "AI-Powered Solutions · Workflow Optimization · Integration · Digital Innovation", "tags_ar": "حلول بالذكاء الاصطناعي · تحسين سير العمل · تكامل تقني · ابتكار رقمي" },
+    { "title": "Website Development", "title_ar": "تطوير المواقع", "body": "Visually appealing, user-friendly websites that reflect a brand's identity and support its business goals.", "body_ar": "مواقع جذابة وسهلة الاستخدام تعكس هوية البراند وتخدم أهداف البيزنس.", "tags": "Business Websites · Responsive Design · UX · Custom Web Solutions", "tags_ar": "مواقع شركات · تصميم متجاوب · تجربة مستخدم · حلول ويب مخصصة" },
+    { "title": "Mobile Apps", "title_ar": "تطبيقات الموبايل", "body": "Intuitive, brand-aligned mobile experiences, from concept to a working product your customers use.", "body_ar": "تجارب موبايل بسيطة ومتوافقة مع البراند، من الفكرة إلى منتج يستخدمه عملاؤك.", "tags": "Custom Apps · UX Design · Business Apps · Mobile Solutions", "tags_ar": "تطبيقات مخصصة · تصميم تجربة المستخدم · تطبيقات أعمال · حلول موبايل" }
+  ],
+  "work": [
+    { "title": "Social Media — Vol. 2", "title_ar": "سوشيال ميديا · الجزء 2", "sector": "Multi-brand · Social", "sector_ar": "متعدد · سوشيال", "year": "2025", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/029fae236879439.Y3JvcCw4MDgsNjMyLDAsMA.png", "link": "https://www.behance.net/gallery/236879439/social-media-vol2" },
+    { "title": "Car Services", "title_ar": "خدمات السيارات", "sector": "Auto · Social", "sector_ar": "سيارات · سوشيال", "year": "2025", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/88d841221209335.Y3JvcCw4MDgsNjMyLDAsMA.png", "link": "https://www.behance.net/gallery/221209335/Car-Services-Social-Media" },
+    { "title": "Social Media — Food", "title_ar": "سوشيال ميديا · مطاعم", "sector": "F&B · Social", "sector_ar": "مطاعم · سوشيال", "year": "2024", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/47eae2223757531.Y3JvcCw4MDgsNjMyLDAsMA.png", "link": "https://www.behance.net/gallery/223757531/social-media-food" },
+    { "title": "Social Media — Medical", "title_ar": "سوشيال ميديا · طبي", "sector": "Healthcare · Social", "sector_ar": "رعاية صحية · سوشيال", "year": "2024", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/6b0c71228161887.Y3JvcCw4MDgsNjMyLDAsMA.png", "link": "https://www.behance.net/gallery/228161887/social-media-medical" },
+    { "title": "Saudi Medical", "title_ar": "طبي · السعودية", "sector": "Healthcare · KSA", "sector_ar": "رعاية صحية · السعودية", "year": "2024", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/a7c040231723775.Y3JvcCw4MDgsNjMyLDAsMA.png", "link": "https://www.behance.net/gallery/231723775/social-media-saudi-medical" },
+    { "title": "Video Animation", "title_ar": "فيديو أنيميشن", "sector": "Motion", "sector_ar": "موشن", "year": "2024", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/1a7f34212653627.Y3JvcCwxMzk5LDEwOTUsMCww.jpg", "link": "https://www.behance.net/gallery/212653627/video-animation-portfolio" },
+    { "title": "Motion Graphic Videos", "title_ar": "فيديوهات موشن جرافيك", "sector": "Motion", "sector_ar": "موشن", "year": "2024", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/bd7dee211898611.Y3JvcCwyMzY1LDE4NTAsNjQsMA.jpg", "link": "https://www.behance.net/gallery/211898611/Motion-Graphic-videos-" },
+    { "title": "Gunnerz", "title_ar": "جانرز", "sector": "Gaming · Social", "sector_ar": "جيمنج · سوشيال", "year": "2022", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/d4aca4185219321.Y3JvcCwxMjAwLDkzOCwwLDA.png", "link": "https://www.behance.net/gallery/185219321/Gunnerz-Social-Media" },
+    { "title": "Brand Guidelines", "title_ar": "دليل الهوية", "sector": "Branding", "sector_ar": "براندينج", "year": "2021", "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/6ce2fb165913805.Y3JvcCwxNDAwLDEwOTUsMCww.png", "link": "https://www.behance.net/gallery/165913805/Brand-Guidelines" }
+  ],
+  "reels": [
+    { "url": "https://www.instagram.com/p/DYxJifTghFc/" },
+    { "url": "https://www.instagram.com/p/DYRpauolM6N/" },
+    { "url": "https://www.instagram.com/p/DYCSY9HAkDz/" },
+    { "url": "https://www.instagram.com/p/DXmM3XhlWl1/" },
+    { "url": "https://www.instagram.com/p/DWWcVQZAaKW/" },
+    { "url": "https://www.instagram.com/p/DSnEl8Rj0W9/" }
+  ],
+  "approach": [
+    { "title": "Discover", "title_ar": "اكتشاف", "body": "Understand the brand, objectives, audience, market, and challenges.", "body_ar": "نفهم البراند والأهداف والجمهور والسوق والتحديات." },
+    { "title": "Plan", "title_ar": "تخطيط", "body": "Develop a tailored marketing direction aligned with business goals.", "body_ar": "نبني توجهًا تسويقيًا مصممًا لأهداف البيزنس." },
+    { "title": "Create", "title_ar": "إبداع", "body": "Turn strategic ideas into content, campaigns, and digital solutions.", "body_ar": "نحوّل الأفكار إلى محتوى وحملات وحلول رقمية." },
+    { "title": "Launch", "title_ar": "إطلاق", "body": "Execute across the right channels with consistent communication.", "body_ar": "ننفّذ على القنوات المناسبة بتواصل متّسق." },
+    { "title": "Optimize", "title_ar": "تحسين", "body": "Evaluate performance, find opportunities, and refine.", "body_ar": "نقيس الأداء ونكتشف الفرص ونطوّر باستمرار." }
+  ],
+  "industries": [
+    { "text": "Restaurants & Food", "text_ar": "المطاعم والأغذية" },
+    { "text": "Clinics & Healthcare", "text_ar": "العيادات والرعاية الصحية" },
+    { "text": "Retail & Commerce", "text_ar": "التجزئة والتجارة" },
+    { "text": "Startups & Established Businesses", "text_ar": "الشركات الناشئة والقائمة" }
+  ],
+  "clients": [
+    { "text": "Hawawshi Abo Shady", "text_ar": "حواوشي أبو شادي" },
+    { "text": "Hamed Abd Allah Optica", "text_ar": "حامد عبد الله أوبتيكا" },
+    { "text": "Engiz Banha", "text_ar": "إنجيز بنها" }
+  ],
+  "contact": {
+    "title": "Your vision. Our creativity. Real impact.",
+    "title_ar": "رؤيتك. إبداعنا. أثر حقيقي.",
+    "body": "Tell us about your business and what you want to achieve. We'll get back to you within one working day.",
+    "body_ar": "احكِ لنا عن البيزنس وما تريد تحقيقه، وسنرد عليك خلال يوم عمل.",
+    "email": "hello@mediastore.agency",
+    "phone_eg": "+20 111 786 7880",
+    "phone_ksa": "+966 596 098 732",
+    "whatsapp": "201117867880",
+    "address": "Banha, Qalyubia, Egypt",
+    "address_ar": "بنها، القليوبية، مصر"
+  },
+  "social": [
+    { "name": "Instagram", "url": "https://www.instagram.com/mediastore.agency/" },
+    { "name": "Behance", "url": "https://www.behance.net/mediastore" },
+    { "name": "Facebook", "url": "https://www.facebook.com/MediaStoreAgency22/" },
+    { "name": "TikTok", "url": "" }
+  ]
+}

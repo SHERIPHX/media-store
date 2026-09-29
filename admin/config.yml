@@ -1,0 +1,138 @@
+# Media Store dashboard (Decap CMS)
+# Replace YOUR-GITHUB-USERNAME/YOUR-REPO below with your GitHub repo.
+backend:
+  name: github
+  repo: SHERIPHX/media-store
+  branch: main
+
+locale: "ar"
+
+media_folder: "assets/uploads"
+public_folder: "assets/uploads"
+site_url: "https://mediastoreagency.com"
+display_url: "https://mediastoreagency.com"
+
+collections:
+  - name: "site"
+    label: "Website"
+    editor: { preview: false }
+    files:
+      - name: "content"
+        label: "Website content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Hero image", name: "image", widget: "image" }
+              - { label: "Headline (EN)", name: "headline", widget: "string" }
+              - { label: "Headline (AR)", name: "headline_ar", widget: "string", required: false }
+              - { label: "Intro (EN)", name: "intro", widget: "text" }
+              - { label: "Intro (AR)", name: "intro_ar", widget: "text", required: false }
+          - label: "Numbers"
+            name: "stats"
+            widget: "list"
+            summary: "{{fields.value}} — {{fields.label}}"
+            fields:
+              - { label: "Number", name: "value", widget: "string" }
+              - { label: "Label (EN)", name: "label", widget: "string" }
+              - { label: "Label (AR)", name: "label_ar", widget: "string", required: false }
+          - label: "Selected work (Behance)"
+            name: "work"
+            widget: "list"
+            summary: "{{fields.title}} · {{fields.year}}"
+            fields:
+              - { label: "Title (EN)", name: "title", widget: "string" }
+              - { label: "Title (AR)", name: "title_ar", widget: "string", required: false }
+              - { label: "Sector (EN)", name: "sector", widget: "string" }
+              - { label: "Sector (AR)", name: "sector_ar", widget: "string", required: false }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Thumbnail (upload or paste Behance image URL)", name: "cover", widget: "image" }
+              - { label: "Behance link", name: "link", widget: "string" }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title (EN)", name: "title", widget: "string" }
+              - { label: "Title (AR)", name: "title_ar", widget: "string", required: false }
+              - { label: "Description (EN)", name: "body", widget: "text" }
+              - { label: "Description (AR)", name: "body_ar", widget: "text", required: false }
+              - { label: "Tags (EN, separate with ·)", name: "tags", widget: "string" }
+              - { label: "Tags (AR)", name: "tags_ar", widget: "string", required: false }
+          - label: "Instagram (backup only)"
+            name: "reels"
+            widget: "list"
+            summary: "{{fields.url}}"
+            hint: "Used only if the automatic Instagram feed is not connected yet. Add a cover + video file to play inside the site."
+            fields:
+              - { label: "Post link", name: "url", widget: "string" }
+              - { label: "Cover image", name: "cover", widget: "image", required: false }
+              - { label: "Video file (mp4)", name: "video", widget: "file", required: false }
+              - { label: "Views", name: "views", widget: "number", required: false }
+              - { label: "Likes", name: "likes", widget: "number", required: false }
+              - { label: "Saves", name: "saves", widget: "number", required: false }
+          - label: "About"
+            name: "about"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title (EN)", name: "title", widget: "string" }
+              - { label: "Title (AR)", name: "title_ar", widget: "string", required: false }
+              - { label: "Text (EN)", name: "body", widget: "text" }
+              - { label: "Text (AR)", name: "body_ar", widget: "text", required: false }
+              - label: "Points"
+                name: "points"
+                widget: "list"
+                summary: "{{fields.text}}"
+                fields:
+                  - { label: "EN", name: "text", widget: "string" }
+                  - { label: "AR", name: "text_ar", widget: "string", required: false }
+          - label: "How we work"
+            name: "approach"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Step (EN)", name: "title", widget: "string" }
+              - { label: "Step (AR)", name: "title_ar", widget: "string", required: false }
+              - { label: "Description (EN)", name: "body", widget: "text" }
+              - { label: "Description (AR)", name: "body_ar", widget: "text", required: false }
+          - label: "Industries"
+            name: "industries"
+            widget: "list"
+            summary: "{{fields.text}}"
+            fields:
+              - { label: "EN", name: "text", widget: "string" }
+              - { label: "AR", name: "text_ar", widget: "string", required: false }
+          - label: "Clients"
+            name: "clients"
+            widget: "list"
+            summary: "{{fields.text}}"
+            fields:
+              - { label: "EN", name: "text", widget: "string" }
+              - { label: "AR", name: "text_ar", widget: "string", required: false }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Title (EN)", name: "title", widget: "string" }
+              - { label: "Title (AR)", name: "title_ar", widget: "string", required: false }
+              - { label: "Text (EN)", name: "body", widget: "text" }
+              - { label: "Text (AR)", name: "body_ar", widget: "text", required: false }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone (Egypt)", name: "phone_eg", widget: "string", required: false }
+              - { label: "Phone (KSA)", name: "phone_ksa", widget: "string", required: false }
+              - { label: "WhatsApp (digits only, e.g. 201117867880)", name: "whatsapp", widget: "string", required: false }
+              - { label: "Address (EN)", name: "address", widget: "string" }
+              - { label: "Address (AR)", name: "address_ar", widget: "string", required: false }
+          - label: "Social links"
+            name: "social"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "URL (leave empty to hide)", name: "url", widget: "string", required: false }
