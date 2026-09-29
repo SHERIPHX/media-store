@@ -22,7 +22,11 @@
     },
     {
       "text": "Engiz Banha",
-      "text_ar": "إنجيز بنها"
+      "text_ar": "إنجز بنها"
+    },
+    {
+      "text": "V-Kufta",
+      "text_ar": ""
     }
   ],
   "approach": [
@@ -180,6 +184,15 @@
       "year": "2021",
       "cover": "https://mir-s3-cdn-cf.behance.net/projects/404/6ce2fb165913805.Y3JvcCwxNDAwLDEwOTUsMCww.png",
       "link": "https://www.behance.net/gallery/165913805/Brand-Guidelines"
+    },
+    {
+      "title": "V-Kufta",
+      "year": "2026",
+      "cover": "https://www.behance.net/gallery/254672289/V-KUFTA-Egyptian-90s-Restaurant-Rebranding",
+      "link": "https://www.behance.net/gallery/254672289/V-KUFTA-Egyptian-90s-Restaurant-Rebranding",
+      "title_ar": "",
+      "sector": "Branding",
+      "sector_ar": "براندنج"
     }
   ],
   "reels": [
